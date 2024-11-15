@@ -11,10 +11,10 @@ class CircleShape(pygame.sprite.Sprite):
         self.velocity = pygame.Vector2(0,0)
         self.radius = radius
 
-        def draw(self, screen):
-            pass
+    def draw(self, screen):
+        pass
 
-        def update(self, dt):
-            pass
+    def update(self, dt):
+        pass
 
     
