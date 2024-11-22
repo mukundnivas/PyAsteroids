@@ -13,16 +13,3 @@ class Shot(CircleShape):
     
     def update(self,dt):
         self.position += self.velocity * dt
-
-
-"""
-split the asteroid
-
-- if shot.collision(asteroid) -> True:
-    asteroid.split()
-
-- asteroid.split() -> return sprites
-and if the asteroid radius is the min kill em!
-
-The sprite would be an asteroid of radius - 1. Same radius, but position rotate by +45 and -45 so the asteroids are complementry to each other
-"""
